@@ -23,18 +23,6 @@ Repositório oficial contendo os exercícios práticos e teóricos desenvolvidos
 
    uvicorn tradutor_hf_langchain:app --reload
 
-### 2. Estrutura Recomendada para o Relatório em PDF (Questões Teóricas, Diagramas e Tabelas)
-
-Para a entrega do arquivo em PDF cobrindo as explicações, diagramas e tabelas solicitadas, você pode estruturar o documento com as seguintes seções:
-
-* **Capa / Cabeçalho:** Identificação da disciplina, nome do aluno e título do Trabalho Prático (TP-2).
-* **Seção 1: Análise e Limitações do LangChain + OpenAI (Questão 4)**
-  * Discussão detalhada sobre latência de rede, limites de taxa (*rate limits*), custos operacionais lineares por token e qualidade das traduções comparada a modelos especializados.
-* **Seção 2: Análise e Limitações do LangChain + Hugging Face Local (Questão 5)**
-  * Avaliação do consumo de recursos computacionais (RAM/VRAM), tempo de inferência local sem GPU, restrições no ajuste fino (*fine-tuning*) e comparação com a API remota da Hugging Face.
-* **Seção 3: Tabela Comparativa (FastAPI Puro vs. LangChain)**
-  * Inserir a tabela comparativa estruturada que geramos anteriormente (cobrindo facilidade de uso, latência, flexibilidade, custo/escalabilidade e adequação para protótipos vs. produção).
-* **Seção 4: Diagramas de Arquitetura**
-  * Incluir os diagramas esquemáticos das arquiteturas desenvolvidas (como o fluxo do FastAPI ➔ LangChain ➔ OpenAI/Hugging Face).
+➔ LangChain ➔ OpenAI/Hugging Face).
 
 Se precisar de ajuda para gerar o código em Python de algum dos scripts complementares ou formatar o texto do PDF, é só avisar!   
