@@ -1,0 +1,4 @@
+﻿gpt2-local/
+.venv/
+__pycache__/
+.env
