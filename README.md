@@ -25,4 +25,4 @@ Repositório oficial contendo os exercícios práticos e teóricos desenvolvidos
 
 ➔ LangChain ➔ OpenAI/Hugging Face).
 
-Se precisar de ajuda para gerar o código em Python de algum dos scripts complementares ou formatar o texto do PDF, é só avisar!   
+ 
